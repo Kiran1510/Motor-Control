@@ -51,8 +51,7 @@ Motor-Control/
 ### Software Requirements
 
 - Arduino IDE (version 1.8.x or higher)
-- Required Libraries:
-  - [List any libraries you're using, e.g., Encoder.h]
+- Libraries listed in the code
 
 ### Installation
 ```bash
@@ -68,10 +67,7 @@ cd Motor-Control/Firmware
 
 1. Upload the firmware to your Arduino board
 2. Open Serial Monitor (9600 baud)
-3. Send commands to control motor position:
-```
-   [Add your command structure if applicable]
-```
+3. Send commands to control motor position. The commands are listed in the serial monitor.
 
 ## Control Parameters
 
