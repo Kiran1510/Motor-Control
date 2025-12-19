@@ -86,8 +86,7 @@ View the KiCAD files directly on GitHub for 2D/3D visualization of the PCB desig
 ## Troubleshooting
 
 **Motor overshooting target position:**
-- Reduce Kp gain
-- Increase Kd gain
+- Make sure voltage is 8V minimum and increase voltage to 12V if no improvement in performance
 - Check encoder connections
 
 **Encoder reading errors:**
@@ -98,7 +97,7 @@ View the KiCAD files directly on GitHub for 2D/3D visualization of the PCB desig
 ## Future Improvements
 
 - [ ] Implement velocity control
-- [ ] Add CAN bus communication
+- [ ] Implement PID Control and compare with this current approach
 - [ ] Optimize control loop timing
 - [ ] Add temperature monitoring
 
